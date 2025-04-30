@@ -6,7 +6,7 @@ from langchain.text_splitter import CharacterTextSplitter
 from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain_community.vectorstores import FAISS
 from langchain.chains.question_answering import load_qa_chain
-from langchain_openai import ChatOpenAI  # ✅ Updated import
+from langchain_openai import ChatOpenAI  
 
 
 # Load environment variables
@@ -37,7 +37,7 @@ def answer_question(knowledge_base, user_question):
 
     docs = knowledge_base.similarity_search(user_question)
 
-    # ✅ Updated to use ChatOpenAI instead of deprecated OpenAI
+    
     llm = ChatOpenAI(model_name="gpt-3.5-turbo", temperature=0.3)
 
     chain = load_qa_chain(llm, chain_type="stuff")
