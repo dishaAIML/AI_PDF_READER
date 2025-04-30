@@ -69,9 +69,13 @@ streamlit run app.py
 
 ai-pdf-reader/
 │
+
 ├── app.py                 # Main Streamlit app
+
 ├── requirements.txt       # Python dependencies
-├── .env                   # Environment variables (not included in repo)
+
+├── .env                   # Environment variables
+
 └── README.md              # Project documentation
 
 
