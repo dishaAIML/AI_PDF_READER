@@ -17,6 +17,8 @@
 
 ---
 
+
+
 ## 📦 Tech Stack
 
 - [Streamlit](https://streamlit.io/)
@@ -29,45 +31,41 @@
 
 ---
 
-## ⚙️ Installation
 
+
+## ⚙️ Installation
 1. **Clone the repository**
-   ```bash
-   git clone https://github.com/your-username/ai-pdf-reader.git
+   
+   git clone https://github.com/dishaAIML/ai-pdf-reader.git
    cd ai-pdf-reader
 
 
-Create a virtual environment (optional but recommended)
+Create a virtual environment 
 
-bash
-Copy code
+
 python -m venv .venv
-source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+source On Windows: .venv\Scripts\activate
 
 
 Install dependencies
 
-bash
-Copy code
 pip install -r requirements.txt
+
 
 Add your OpenAI API key
 
 Create a .env file in the root directory and add:
 
-env
-Copy code
+
 OPENAI_API_KEY=your_openai_api_key
 
 ▶️ Running the App
-bash
-Copy code
+
 streamlit run app.py
 
 
 📁 Project Structure
-bash
-Copy code
+
 ai-pdf-reader/
 │
 ├── app.py                 # Main Streamlit app
@@ -91,3 +89,4 @@ When a user asks a question, relevant chunks are retrieved.
 These chunks are passed to OpenAI's GPT model via LangChain for response.
 
 
+![AI PDF Reader Demo]("D:\screenshots")
