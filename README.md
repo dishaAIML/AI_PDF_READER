@@ -89,4 +89,9 @@ When a user asks a question, relevant chunks are retrieved.
 These chunks are passed to OpenAI's GPT model via LangChain for response.
 
 
-![AI PDF Reader Demo]("D:\screenshots")
+![IMG-20250430-WA0001](https://github.com/user-attachments/assets/10062875-ee47-47e9-8f98-299b4f050601)
+![IMG-20250430-WA0002](https://github.com/user-attachments/assets/a93b442b-4f82-4f76-879a-b40b2d000994)
+![IMG-20250430-WA0003](https://github.com/user-attachments/assets/a36ba98a-ac85-4bce-a764-d5c1ea2744d3)
+![IMG-20250430-WA0004](https://github.com/user-attachments/assets/dafbe165-c967-4f38-8f53-0ab389dec493)
+
+
